@@ -1,3 +1,42 @@
-body {
-  background-color: black;
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron{
+	background-color: #02cac8;
+}
+
+.container h1{
+	color:#fff;
+	font-size:52px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+	background-color: #02cac8;
+	color:#fff;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+/* #box{
+	border:5px solid #02cac8;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+} */
+
+.container{
+	border:5px solid #02cac8;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
