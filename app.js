@@ -22,7 +22,7 @@
 
     // console.log(formData);
 
-    var url = "http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=d0cb4a5c18674d3d8621efeb937e32d8&" + formData;
+    var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=d0cb4a5c18674d3d8621efeb937e32d8&" + formData;
     console.log('This is the url being called ' + url);
 
     $.ajax({
