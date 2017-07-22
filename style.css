@@ -1,7 +1,33 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+.idontknow {
+  color: #02cac8;
+}
+.header {
+  margin:0px;
+  width:100%;
+}
+#results h5 {
 
+  font-weight: normal;
+
+}
+
+#results h4 {
+  background-color: #6d7275;
+  padding-left: 0px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.articleDiv {
+  background-color: #6d7275;
+  margin:10px;
+  border-radius: 10px;
+  padding:10px;
+  color: white;
+}
 .jumbotron{
 	background-color: #02cac8;
 }
@@ -17,8 +43,11 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-h5{
-	background-color: #02cac8;
+.panel-default .panel-heading {
+  background-color: #02cac8;
+}
+
+h4{
 	color:#fff;
 	padding-top:10px;
 	padding-bottom: 10px;
@@ -36,7 +65,6 @@ h5{
 } */
 
 .container{
-	border:5px solid #02cac8;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 }

@@ -14,45 +14,47 @@
         <h1><i class="fa fa-newspaper-o"></i>&nbsp;New York Times Search</h1>
       </div>
     </div>
-  <div class="container" id="box">
-    <form>
-    <h5><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> &nbsp; Search Parameters</h5>
-      <div class="form-group">
-        <label for="Search Term">Search Term</label>
-        <input type="text" class="form-control" name="q" placeholder= "Bruce Lee">
 
-        <label for="page">Number of Records to Retrieve:</label>
-        <select class="form-control" id="page">
-          <option>1</option>
-          <option>5</option>
-          <option>10</option>
-        </select>
-        <label for="Start Year (Optional):">Start Year (Optional):</label>
-        <input type="text" class="form-control" name ="begin_date" placeholder= "2008">
-
-        <label for="End Year (Optional):">End Year (Optional):</label>
-        <input type="text" class="form-control" name ="end_date" placeholder= "1929">
-      </div>
-      <button type="submit" class="btn btn-default">Search</button>
-      <button type="clear" class="btn btn-default">Clear Results</button>
-    </form>
-  </div>
-  <div class="container">
-    <div class="results">
-      <h5><span class="glyphicon glyphicon-list" aria-hidden="true"></span> &nbsp;Top Artilces</h5>
-    </div>
-  </div>
-
-
-    <!-- <div class="container">
+    <div class="container">
       <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">NY Times Search</h3>
-        </div>
+        <div class="panel-heading"><h4 class="header"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> &nbsp; Search Parameters</h4></div>
         <div class="panel-body">
-          Panel content
+          <form>
+
+            <div class="form-group">
+              <label for="Search Term">Search Term</label>
+              <input id="search" type="text" class="form-control" name="q" placeholder= "Bruce Lee">
+
+              <label for="page">Number of Records to Retrieve:</label>
+              <select class="form-control" id="page">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+              </select>
+              <label for="Start Year (Optional):">Start Year (Optional):</label>
+              <input id="begin"type="text" class="form-control" name ="begin_date" placeholder= "2008">
+
+              <label for="End Year (Optional):">End Year (Optional):</label>
+              <input  id="end"type="text" class="form-control" name ="end_date" placeholder= "1929">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+            <button type="clear" class="btn btn-default">Clear Results</button>
+          </form>
         </div>
-      </div> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h4 class="header"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> &nbsp;Top Artilces</h4></div>
+        <div class="panel-body">
+          <div id="results">
+
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
